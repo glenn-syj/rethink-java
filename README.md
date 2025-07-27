@@ -59,6 +59,15 @@ rethink-java/
 
 ```
 
+## Runtime
+
+### Requirements
+
+- Java 17 (or another version, specified at the top of relevant files if different)
+- Your own IDE:
+  - IntelliJ IDEA
+  - VS Code (please refer to `.vscode/settings.json` for project-specific configurations)
+
 ## Detailed Breakdown of Sections
 
 ### 01_jvm_internals/
