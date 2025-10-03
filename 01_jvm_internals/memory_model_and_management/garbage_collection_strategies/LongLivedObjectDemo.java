@@ -5,6 +5,7 @@ import java.util.List;
 
 public class LongLivedObjectDemo {
     // The instances of this list will likely be promoted to Old Generation
+    // this list as a static field makes the heap objects not garbage-collected
     private static List<byte[]> permanentList = new ArrayList<>();
 
     public static void main(String[] args) throws InterruptedException {
