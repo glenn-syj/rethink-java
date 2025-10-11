@@ -412,6 +412,8 @@ jstack <pid>  # Thread dump
 3. **Practice heap dump generation** using jmap
 4. **Study reference types** with ReferenceTypeDemo
 
+- Use `-Xmx16m` option with `java ...` to observe `SoftReference` objects get garbage collected.
+
 ### Intermediate Level
 
 1. **Master MAT analysis** for complex leak detection
